@@ -1,0 +1,53 @@
+<?php			
+	$nn='';
+	for($i=1;$i<=2;$i++)
+	{		
+		$n=rand(1,30);		
+		if(strpos($nn,'_'.$n.'_')!==false)
+		{
+			$i--;
+		}
+		else
+		{
+			$nn.='_'.$n.'_';
+			$temp=get_popular_films($n,1);
+			$left_block['pop_films'][]=$temp[0];		
+		}		
+	}
+	
+	$nn='';
+	for($i=1;$i<=2;$i++)
+	{	
+		$n=rand(1,7);
+		if(strpos($nn,'_'.$n.'_')!==false)
+		{
+			$i--;
+		}
+		else
+		{
+			$nn.='_'.$n.'_';
+			$temp=get_new_films($n,1);
+			$left_block['new_films'][]=$temp[0];			
+		}		
+	}
+	
+	$nn='';
+	for($i=1;$i<=2;$i++)
+	{
+		$n=rand(1,1000);
+		if(strpos($nn,'_'.$n.'_')!==false)
+		{
+			$i--;
+		}
+		else
+		{
+			$nn.='_'.$n.'_';
+			$temp=get_mult_films($n,1);
+			$left_block['mult_films'][]=$temp[0];		
+		}		
+	}		
+
+	$left_block['random_films'][]=get_random_film();
+	
+	$left_block['comments']=get_last_comments(2);	
+?>

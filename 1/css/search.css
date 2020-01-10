@@ -1,0 +1,10 @@
+  #lettersearch div{
+    padding-bottom:0px;
+  }
+  #main{
+    overflow:visible;
+  }
+  .findtext{
+    background-color:#AAF;
+    color:black;
+  }

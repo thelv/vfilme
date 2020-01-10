@@ -1,0 +1,1 @@
+<?php	if(count($serials)<$serialsOnPage+1)	{		?>			<script>				loadPages.end();			</script>		<?	}	else	{		end($serials);		unset($serials[key($serials)]);	}	foreach($serials as $serial){			echo render('blocks/serial', $serial);		}		if(! $serials)	{		?>			<div id='emptySerials'>				К сожалению, ничего не найдено.			</div>		<?	}	?>

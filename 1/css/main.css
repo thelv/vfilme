@@ -1,0 +1,143 @@
+*{
+      margin:0;
+      padding:0;
+    }
+    body {
+      text-align:center;
+    }
+    #description{
+      width:100%px;
+      height:30px;
+      background: #772;
+      font-size:20px;
+      color: #DDD;
+      padding:6px 0 4px 0;
+      text-indent:140px;
+      line-height:30px;
+    }
+    #description a{
+      color: #DDD;
+      text-decoration: none;
+    }
+    #main{
+      width:800px;
+      border: 1px solid #77A;
+      border-top:0;
+      font-size:15px;
+      background: white;
+      text-align:left;
+      overflow:hidden;
+    }  
+    .searchlabel{
+      display:block;
+      width:100%;
+      background: #EEEEC0 url(../img/closelabel.png) no-repeat 0 -1px;
+      text-indent:20px;
+      font-size:15px;
+      color:black;
+      border-top:1px solid #004;
+      margin-bottom:2px;
+      cursor:pointer;
+      font-weight:bold;
+    }
+    .search{
+      padding:23px 30px 16px 20px;
+      font-size:16px;
+    }
+    .search table{
+      font-size:16px;
+    }
+    .search input{
+      text-indent:5px;
+      border:1px solid #002;
+      font-size:15px;
+    }
+    .search select{
+      width:18em;
+      text-indent:5px;
+      border:1px solid #002;
+      font-size:15px;
+    }
+    .alphabet{
+      padding: 10px 20px;
+      font-size:17px;
+      line-height:20px;
+    }
+    #quicksearch form{
+      text-align:center;
+    }
+    .opensearch .searchlabel{
+       background: /*#99A*/#A7A7B7 url(../img/openlabel.png) no-repeat 0 -1px;
+       border-top: 1px solid #004;
+    }
+    .closesearch .searchlabel{
+       background: #EEEEE0 url(../img/closelabel.png) no-repeat 0 -1px;
+       border-top: 1px solid #AAA;
+       color: #777;
+    }
+    .closesearch form{
+      position:absolute;
+      visibility:hidden;
+    }
+    .closesearch  div{
+      position:absolute;
+      visibility:hidden;
+    }
+    #resultslabel{
+      width:800px;
+      line-height:13px;
+      padding:3px 0px 4px 0px;
+      border-top:1px solid #004;
+      border-bottom:1px solid #004;
+      font-size:15px;
+      font-weight:bold;
+      background:#A7A7B7;
+      margin-bottom:0px;
+      margin-top:10px;
+      text-indent:15px;
+    }
+
+    .film{
+      border-top:1px solid #77E;
+      border-bottom:1px solid #77E;
+      width:800;
+      margin:15px 0 0 0;
+/*      background-color:#EEEEE0;*/
+    }
+    .filmimg{
+      background-color: #EEEEEE;
+      height:100%;
+    }
+    .filmimg a img{
+      width:250px;
+      border:0;
+      margin-top:-1px;
+      margin-bottom:-1px;
+    }
+    .aboutfilm{
+      padding:3px 30px;
+      font-size:15px;
+    }
+    H2{
+      font-size:14px;
+      font-weight:bold;
+      text-indent:0px;
+      text-align:left;
+      margin-bottom:11px;
+    }
+    .filmactions{
+      font-size:14px;
+      text-align:left;
+      vertical-align:bottom;   
+      height:25px;   
+/*      background:white;*/
+    }
+    .filmactions div{
+      float:left;
+      background-color: #EEEEEE;
+    }
+    .filmactions div a{        
+      color:/*#A7A7B7*/#55D;
+      text-decoration:none;
+    }
+    

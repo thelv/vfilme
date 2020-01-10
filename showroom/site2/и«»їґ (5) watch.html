@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+		<style>
+			body{wid-th:1000px;}
+			*{font-weight:normal;margin:0;padding:0;font-family:"Times New Roman"}
+			#top_left{float:left;background:#dde;padding:6px 26px 0px 2px;height:99px}
+			#top_left img{padding-left:10px;}
+			.label_link{text-decoration:none;color:#665a53;text-indent:12px}
+			.label_link:hover{text-decoration:underline;}
+			.label_link h1{text-decoration:none;font-size:22px;font-weight:normal;line-height:26px}
+			#top_right{float:right;background:#ddc;padding:8px 18px 0 21px;height:97px}
+			.right_h1{font-size:21px;line-height:25px;color:#000;background:url("img/galka.png") 0 5px no-repeat;padding-left:22px}
+			#top_search{overflow:hidden;padding:8px 33px 0px 28px;background:#f7f7f1;height:97px}
+			#top_search h1{float:left;font-size:30px;line-height:35px;font-weight:normal}
+			#top_search form{overflow:hidden;padding-top:6px}
+			#top_search form div{overflow:hidden;padding:0 14px 5px 7px;font-size:17px;font-wight:normal}
+			#top_search form input[type=text]{width:100%;font-size:21px;margin-bottom:6px}
+			#top_search form input[type=submit]{display:block;float:right;font-size:19px;padding:1px 9px}
+			.big_row{width:35%;float:left;margin-top:40px;overflow:hidden}
+			#last_row{width:30%}
+			.big_link{font-size:26px;text-decoration:none;color:#555;font-weight:bold;display:block;margin-bottom:10px;pradding-left:10px}
+			.big_link:hover{text-decoration:underline}
+			.big_row > div{margin-left:20px;margin-right:30px}
+			#last_row > div{margin-right:20px}
+			.film{margin-bottom:13px;paddirng-left:10px}
+			.film img{width:120px;float:left;margin-right:6px;margin-top:3px}
+			.big_row[type=films] div{overflow:hidden}
+			.film_link{font-size:18px;fonft-weight:bold;margin-bottom:4px;display:block}
+			.film_number{color: #ACACAC;font-weight: 400;left: 5px;margin: 1px 0px 0px;	position: absolute;display:none}
+			.else{color:#666}
+			.big_row[type=comments] > div > div{margin-bottom:20px}
+			.alfa{color:#33b}
+			#left_row{width:255px;float:left;padding:27px 15px 0 13px;}
+			#right_row{width:200px;float:right;padding-top:26px}
+			#center_row{overflow:hidden;padding:25px 20px 0 20px;}
+			.watch_film h1{font-size:26px;font-weight:bold}
+			.w_d{font-size:17px;margin-bottom:20px}
+			.film_cont{margin--top:20px;margin-bottom:20px;margin-right:22px;float:left}
+			#vk_comments{margin-left:0 !important;width:100% !important;margin-top:20px}
+			.left_item{position:relative;overflow:hidden;margin-bottom:13px}
+			.left_item a{color:#33b}			
+			.left_item .else{text-decoration:none;border-bottom:1px dashed #666;display:none}
+			#left_row a:hover{color:#00e}
+			#left_row a.left_h{font-size:24px;color:black;text-decoration:none;display:block;}			
+			#left_row a.left_h:hover{font-size:24px;color:black;text-decoration:none;display:block;text-decoration:underline}
+			.fade{background: transparent url(img/fade.png) repeat-y right top;display:block;position:absolute;right:0;display:block;height:100%;width:14px}
+			#left_comments{font-size:14px}	
+			.left_comment{margin:2px 0 3px 0;}
+		</style>
+	</head>
+	<body>
+		<div id=top>
+			<div id=top_left>
+				<a href="/"><img src="img/label.png" alt="В Фильме.ру"></a>
+				<a class=label_link href="/"><h1>смотреть фильмы онлайн</h1></a>
+				<a class=label_link href="/"><h1>скачать фильмы</h1></a>
+			</div>
+			<div id=top_right>
+				<div class=right_h1>бесплатно</div>
+				<div class=right_h1>без регистрации</div>
+				<div class=right_h1>без смс</div>
+			</div>
+			<div id=top_search>				
+				<h1>поиск фильмов:</h1>
+				<form>					
+					<input type=submit value=искать>
+					<div>
+						<input type=text>										
+						<a href=extended_search.php>расширенный поиск</a>
+					</div>
+				</form>			
+				<a class=alfa href=alfa>1</a>
+				<a class=alfa href=alfa>2</a>
+				<a class=alfa href=alfa>3</a>
+				<a class=alfa href=alfa>4</a>
+				<a class=alfa href=alfa>5</a>
+				<a class=alfa href=alfa>6</a>
+				<a class=alfa href=alfa>7</a>
+				<a class=alfa href=alfa>8</a>
+				<a class=alfa href=alfa>9</a>
+				<a class=alfa href=alfa>0</a>
+				<a class=alfa href=alfa>а</a>
+				<a class=alfa href=alfa>б</a>
+				<a class=alfa href=alfa>в</a>
+				<a class=alfa href=alfa>г</a>
+				<a class=alfa href=alfa>д</a>
+				<a class=alfa href=alfa>е</a>
+				<a class=alfa href=alfa>ё</a>
+				<a class=alfa href=alfa>ж</a>
+				<a class=alfa href=alfa>з</a>
+				<a class=alfa href=alfa>б</a>
+				<a class=alfa href=alfa>и</a>
+				<a class=alfa href=alfa>й</a>
+				<a class=alfa href=alfa>к</a>
+				<a class=alfa href=alfa>л</a>
+				<a class=alfa href=alfa>м</a>
+				<a class=alfa href=alfa>н</a>
+				<a class=alfa href=alfa>о</a>
+				<a class=alfa href=alfa>п</a>
+				<a class=alfa href=alfa>р</a>
+				<a class=alfa href=alfa>с</a>
+				<a class=alfa href=alfa>т</a>
+				<a class=alfa href=alfa>у</a>
+				<a class=alfa href=alfa>ф</a>
+				<a class=alfa href=alfa>х</a>
+				<a class=alfa href=alfa>ц</a>
+				<a class=alfa href=alfa>ч</a>
+				<a class=alfa href=alfa>ш</a>
+				<a class=alfa href=alfa>щ</a>
+				<a class=alfa href=alfa>ъ</a>
+				<a class=alfa href=alfa>ы</a>
+				<a class=alfa href=alfa>ь</a>
+				<a class=alfa href=alfa>э</a>
+				<a class=alfa href=alfa>ю</a>
+				<a class=alfa href=alfa>я</a>				
+			</div>	
+		</div>		
+		<div id=left_row>	
+			<div class=left_item>
+				<a class=left_h href=qwe>
+					Популярные фильмы
+				</a>
+				<span class="fade"></span>
+				<a href=film>Дьявол носит Прада</a><br>
+				<a href=film><nobr>Принц Персии: Пески времени / Prince of Persia: The Sands of Time (2010) </nobr></a>
+				<a href="index.php?page=2" class=else>все популярные →</a>
+			</div>
+			<div class=left_item>
+				<a class=left_h href=qwe>
+					Новинки кинопроката
+				</a>
+				<span class="fade"></span>
+				<a href=film>Три богатыря и Шамаханская царица</a><br>
+				<a href=film><nobr>Зеленый слоник. </nobr></a>
+				<a href="index.php?page=2" class=else>все новинки →</a>
+			</div>
+			<div class=left_item>
+				<a class=left_h href=qwe>
+					Советские мультики
+				</a>
+				<span class="fade"></span>
+				<a href=film><nobr>Социальная сеть / The Social Newtwork (2010)</nobr></a><br>
+				<a href=film><nobr>Ловушка для бамбра </nobr></a>
+				<a href="index.php?page=2" class=else>все мультики →</a>
+			</div>
+			<div class=left_item id=left_comments>
+				<a class=left_h href=qwe>
+					Обсуждение фильмов
+				</a>
+				<span class="fade"></span>
+				<div class=left_comment>
+					<a href=film>Социальная сеть / The Social Newtwork (2010)</a> - очень хороший сериал!!! Я сама хочу быть хирургом <br>
+				</div>
+				<div class=left_comment>
+					<a href=film><nobr>Ловушка для бамбра </nobr></a> - интересно, девчонки не на сценарий работали?
+				</div>
+				<a href="index.php?page=2" class=else>все мультики →</a>
+			</div>
+		</div>
+		<div id=right_row>
+		<iframe src="http://teasernet.com/webmaster/editblock/show/index.php?notpl=1&nohtml&thq=1&ipl=0&cw=100&tvk=5&blw=200&blmh=0&blmv=0&blmvt=px&blbgch=%23FFFFFF&blbgc=%23FFFFFF&blbw=0&blbt=solid&blbc=%23e0dce0&tbgc=%23FFFFFF&ism=70&iw=60&tbw=0&tbt=solid&tbgch=%23FFFFFF&tbc=%23CCCCCC&ibt=solid&ibc=%23bdb2bd&ibw=0&ims=6&af=tahoma&as=12&au=px&ac=%23575757&ahf=tahoma&ahs=12&ahu=px&ahc=%23000000&aos=12&aof=tahoma&aou=px&aoc=%230000cc&afun=0&afb=1&atun=0&atb=1&ahb=1&ahun=0" style="width:195px;height:1000px;border:0;margin-left:-8px"></iframe>
+		&nbsp;
+		</div>
+		<div id=center_row class=watch_film>
+			<h1>Знакомство с Факерами 2 / Little Fockers (2010)</h1>
+			<div class=w_d>смотреть онлайн / <a href=download.php>скачать</a></div>
+			<div class=film_cont>
+				<!-- <iframe src="http://vkontakte.ru/video_ext.php?oid=3598582&id=159316984&hash=ccef14e6f62f5cc7&hd=1" width="607" height="360" frameborder="0"></iframe> -->
+				<iframe src="http://vkontakte.ru/video_ext.php?oid=-1884027&id=105575877&hash=d901fcc8c0d2f884" width="480" height="360" frameborder="0"></iframe>  
+				
+								
+
+				
+				<script type="text/javascript" src="http://vkontakte.ru/js/api/share.js?9" charset="windows-1251">
+				</script>
+
+<div style='padding-left:0px;padding-top:8px;overflow:hidden'>
+
+
+
+<div style='float:left'>
+
+<script type="text/javascript">
+
+<!--
+
+document.write(VK.Share.button({
+
+  url: 'http://vfilme.ru/watch.php?film=video-1884027_105575877&r=vkb',
+
+  title: 'Фильм "Девочки (полная версия, Валерия Гай Германика)" онлайн',
+
+  description: 'Ну вот, достал с Торрентсов - смотрим, обсуждаем.',
+
+  image: 'http://vfilme.ru/php/img.php?url=http://408.gt2.vkadre.ru/assets/thumbnails/0376e77066659978.160.vk.jpg',
+
+  noparse: true
+
+}));
+
+-->
+
+</script>
+
+</div>
+
+
+
+
+
+<div style='float:left;padding-left:5px;padding-top:1px'>
+
+
+
+
+
+<style>
+
+/*	#at16p{margin-left:130px !important}
+
+	#at15s{top:565px !important;}*/
+
+</style>
+
+
+
+
+
+<!-- AddThis Button BEGIN --> 
+
+
+<div class="addthis_toolbox addthis_default_style">
+
+<!-- <a class="addthis_counter addthis_pill_style"></a> -->
+
+<a class="addthis_button_memori" style='padding-left:2px;padding-top:3px;color:gray;text-indent:2px;'>Memori</a>  
+
+<a class="addthis_button_bobrdobr" style='padding-left:7px;padding-top:3px;color:gray;text-indent:2px;'>БобрДобр</a>  
+
+<a class="addthis_button_misterwong" style='padding-left:7px;padding-top:3px;color:gray;text-indent:2px;'>Mister-Wong</a>  
+
+<a class="addthis_button_compact" style='padding-left:7px;padding-top:3px;color:gray;text-indent:0px;text-decoration:underline' title='кликните, чтобы увидеть все сервисы'>Еще...</a>  
+
+
+</div>
+
+ 
+
+
+
+
+<script type="text/javascript">var addthis_config = {"data_track_clickback":true};</script> 
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=thelv"></script>
+
+ 
+<!-- AddThis Button END --> 
+
+
+</div>
+</div>
+
+				
+			</div>			
+			Россия, 2010 (Мультфильм, комедия, приключения, семейный)<br>
+			Режиссер: Сергей Глезин<br><br>
+			Легендарная Шамаханская царица, которая сводила с ума многих царей и простых смертных, положила свой глаз и на Киевского князя. Тот заболел любовью странной по ней. Но чтобы доставить в целости и сохранности эту чудо-богиню в Киев-Град, срочно из отпуска вызывают всех троих, уже знакомых нам, богатырей: Алёшу Поповича, Добрыню Никитича и Илью Муромца. Теперь троица должна решить, как быть дальше? Вроде бы и слухи о царице ходят нелестные, и князя жаль.			
+			
+			
+			<!-- Put this script tag to the <head> of your page -->
+
+<script type="text/javascript" src="http://userapi.com/js/api/openapi.js?14"></script>
+
+<script type="text/javascript">
+
+  VK.init({apiId: 2010028, onlyWidgets: true});
+
+</script>
+
+<!-- Put this div tag to the place, where the Comments block will be -->
+
+ <div id="vk_comments" style='margin-left:20px;margin-bottom:25px'> </div> 
+
+<script type="text/javascript">
+
+VK.Widgets.Comments("vk_comments", {limit: 10, width: "760",autoPublish : 0});
+
+</script>
+		</div>
+	</body>
+</html>

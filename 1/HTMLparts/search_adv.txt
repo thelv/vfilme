@@ -1,0 +1,17 @@
+<div style='widt-h:750px;margin-top:7px;margin-bottom:-15px;padding-left:6px'> 
+
+
+
+<!-- <div> -->
+<!-- MarketGidGoods Start -->
+<div id="MarketGid4901"><center>
+<a href="http://marketgid.com/" target="_blank">Загрузка...</a>
+</center></div>
+<!-- MarketGidGoods End -->
+<!-- pered </body> -->
+
+
+
+
+
+</div>

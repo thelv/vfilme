@@ -1,0 +1,1 @@
+<div id=pages style='clear:both'>	Страницы:	<?php				$page=0;				while($page*$serialsOnPage<=$serial['count']):					?>							<a href='<?= url($url['page'], $page, $url['q']) ?>'><?= (int)($page) ?></a>						<?						$page++;					endwhile;	?>	</div>

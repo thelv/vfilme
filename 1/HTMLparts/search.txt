@@ -1,0 +1,89 @@
+<link rel='shortcut icon' href='img/favicon.png' />
+<script src='js/search.js' >
+</script>
+<script src='js/counter.js' >
+</script>
+<script src='js/accent.js'>
+</script>
+<script type="text/javascript" src="http://vkontakte.ru/js/api/share.js?9" charset="windows-1251">
+</script>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+</head>
+<body onunload='sendstat();'>
+<label id="top"></label> 
+<div align=center>
+  <div id="main">
+<$>
+<a href='watch.php?film=video16921665_160287715' style='border:0'><img src='img/artgum.png'/></a>
+<div class="closesearch" id="newsearch"><a class="searchlabel" href="new.php"><span class=new>Киноновинки</span> Новинки мирового кинопроката / Новые фильмы 2010 (то что сейчас идет в кино)</a></div>
+
+    <div class="closesearch" id="quicksearch" style="/*position:absolute;visibility:hidden;*/">
+      <a class="searchlabel" onclick="searchopenclose(this);">поиск фильмов</a>
+      <form action="search.php" class="searchform">
+        <!--название: -->&nbsp;&nbsp;
+        <input name="name" type=text size=80 style="width:500px;">
+        <input type=hidden name="type" value="quick">
+      </form>
+    </div>  
+
+    <div class="closesearch" id="extsearch">
+      <a class="searchlabel" onclick="searchopenclose(this);">расширенный поиск</a>
+      <form action="search.php" class="searchform" onsubmit="if(this.info.className=='metainput'){this.info.name='none';};">
+      <table  border="0" cellspacing="0" cellpadding="4">
+      <tr>
+        <td>
+        название:
+        </td>
+        <td>
+          <input name="name" type=text size=66>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        информация:
+        </td>
+        <td>
+          <input id=info class="metainput" onFocus="normalinput(this);" onBlur="metainput(this);" type=text size=66 name="info" value="режиссер, актеры, жанр, страна, год и т.д."> 
+        </td>
+      </tr>
+      <tr>
+        <td>
+        группа:
+        </td>
+        <td>
+        <select name="owner" type=text size=1>
+	  <option selected value="">любая группа</option>
+	  <option value="club1792796">&#1758;&#1758;&#1758;&#1758;&#1758;&#1758;&#1758;&#1758; (ПОЛНЫЕ ФИЛЬМЫ ВКОНТАКТЕ)  &#1758;&#1758;&#1758;&#1758;&#1758;&#1758;&#1758;&#1758;</option>
+	  <option value="club1969106">фильмы В Контакте</option>
+          <option value="club1886349">Коллекция фильмов В Контакте.</option>
+	  <option value="club61972">&#9644;&#9644;&#9644;&#9644;&#9644;&#9644;&#9644;&#9644;&#9644;&#9644;&#9644; чЁрные фильмы &#9644;&#9644;&#9644;&#9644;&#9644;&#9644;&#9644;&#9644;&#9644;&#9644;&#9644;&#9644;</option>
+	  <option value="club445750">Клуб любителей советских мультиков и детских фильмов</option>
+          <option value="club29991">Советские ПСИХОДЕЛИЧЕСКИЕ мультики</option>
+	  <option value="club601394">Фильмы.ru</option>
+        </select>
+        </td>
+      </tr>
+      </table>
+      <input type=submit style='position:absolute;left:-10000;'>
+      <input type=hidden name="type" value="ext">
+      </form>
+    </div>
+    <div class="closesearch" id="lettersearch">
+      <a class="searchlabel" onclick="searchopenclose(this);">поиск по первой букве</a>
+      <div>
+        <a  href="search.php?l=a">A</a> <a href="search.php?l=b">B</a> <a href="search.php?l=c">C</a> <a href="search.php?l=d">D</a> <a href="search.php?l=e">E</a> <a href="search.php?l=f">F</a> <a href="search.php?l=g">G</a> <a href="search.php?l=h">H</a> <a href="search.php?l=i">I</a> <a href="search.php?l=j">J</a> <a href="search.php?l=k">K</a> <a href="search.php?l=l">L</a> <a href="search.php?l=m">M</a> <a href="search.php?l=n">N</a> <a href="search.php?l=o">O</a> <a href="search.php?l=p">P</a> <a href="search.php?l=q">Q</a> <a href="search.php?l=r">R</a> <a href="search.php?l=s">S</a> <a href="search.php?l=t">T</a> <a href="search.php?l=u">U</a> <a href="search.php?l=v">V</a> <a href="search.php?l=w">W</a> <a href="search.php?l=x">X</a> <a href="search.php?l=y">Y</a> <a href="search.php?l=z">Z</a><br/>
+        <a href="search.php?l=а">А</a> <a href="search.php?l=б">Б</a> <a href="search.php?l=в">В</a> <a href="search.php?l=г">Г</a> <a href="search.php?l=д">Д</a> <a href="search.php?l=е">Е</a> <a href="search.php?l=ж">Ж</a> <a href="search.php?l=з">З</a> <a href="search.php?l=и">И</a> <a href="search.php?l=й">Й</a> <a href="search.php?l=к">К</a> <a href="search.php?l=л">Л</a> <a href="search.php?l=м">М</a> <a href="search.php?l=н">Н</a> <a href="search.php?l=о">О</a> <a href="search.php?l=п">П</a> <a href="search.php?l=р">Р</a> <a href="search.php?l=с">С</a> <a href="search.php?l=т">Т</a> <a href="search.php?l=у">У</a> <a href="search.php?l=ф">Ф</a> <a href="search.php?l=х">Х</a> <a href="search.php?l=ц">Ц</a> <a href="search.php?l=ч">Ч</a> <a href="search.php?l=ш">Ш</a> <a href="search.php?l=щ">Щ</a> <a href="search.php?l=ъ">Ъ</a> <a href="search.php?l=ы">Ы</a> <a href="search.php?l=ь">Ь</a> <a href="search.php?l=э">Э</a> <a href="search.php?l=ю">Ю</a> <a href="search.php?l=я">Я</a></br>
+        <a href="search.php?l=0">0</a> <a href="search.php?l=1">1</a> <a href="search.php?l=2">2</a> <a href="search.php?l=3">3</a> <a href="search.php?l=4">4</a> <a href="search.php?l=5">5</a> <a href="search.php?l=6">6</a> <a href="search.php?l=7">7</a> <a href="search.php?l=8">8</a> <a href="search.php?l=9">9</a>
+      </div>
+    </div>
+
+    <div class="closesearch" id="clubsearch">
+      <a class="searchlabel" onclick="searchopenclose(this);">фильмы по группам</a>
+      <div>
+	<P><a href='index.php'>Смотреть фильмы онлайн</a>
+	<P><a href='search.php?owner=club29991&type=ext' title='Советские психоделические мультфильмы'>Советские психоделические мультфильмы</a>
+        <P><a href='search.php?owner=club445750&type=ext' title='Советские мультики и детские фильмы'>Советские мультики и детские фильмы</a>
+        <P><a href='search.php?owner=club61972&type=ext' title='Чёрные фильмы'>Чёрные фильмы</a>
+        </P>
+      </div>
+    </div>

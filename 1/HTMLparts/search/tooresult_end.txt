@@ -1,0 +1,4 @@
+
+<a class="tooreslabel" onclick="showtooresult(this);" style="">
+  показать похожие результаты
+</a></div>

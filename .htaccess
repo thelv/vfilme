@@ -1,0 +1,12 @@
+DirectoryIndex main.php
+RewriteEngine On
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^index\.php$ main.php
+RewriteRule ^сериалы serials/indexCompile.php
+RewriteRule ^мои_сериалы serials/indexCompile.php
+RewriteRule ^serials/ajax serials/indexCompile.php
+RewriteRule ^serials$ serials/indexCompile.php
+RewriteRule ^serials/$ serials/indexCompile.php
+RewriteRule ^serials\/\d+ serials/indexCompile.php
+RewriteRule ^serials/admin serials/indexCompile.php
+Options -Indexes

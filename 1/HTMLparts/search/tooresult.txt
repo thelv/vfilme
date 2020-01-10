@@ -1,0 +1,2 @@
+
+<div class="closesearch" style="background:#EEEEEE;margin-top:-1" >

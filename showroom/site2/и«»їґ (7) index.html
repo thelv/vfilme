@@ -1,0 +1,100 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html>
+	<head>
+		<style>
+			*{font-weight:normal;margin:0;padding:0;font-family:"Times New Roman"}
+			#top_left{float:left;background:#dde;padding:6px 26px 0px 2px;height:99px}
+			#top_left img{padding-left:10px;}
+			.label_link{text-decoration:none;color:#665a53;text-indent:12px}
+			.label_link:hover{text-decoration:underline;}
+			.label_link h1{text-decoration:none;font-size:22px;font-weight:normal;line-height:26px}
+			#top_right{float:right;background:#ddc;padding:8px 18px 0 21px;height:97px}
+			.right_h1{font-size:21px;line-height:25px;color:#000;background:url("img/galka.png") 0 5px no-repeat;padding-left:22px}
+			#top_search{overflow:hidden;padding:8px 33px 0px 28px;background:#f7f7f1;height:97px}
+			#top_search h1{float:left;font-size:30px;line-height:35px;}
+			#top_search form{overflow:hidden;padding-top:6px}
+			#top_search form div{overflow:hidden;padding:0 14px 5px 7px;font-size:17px;font-wight:normal}
+			#top_search form input[type=text]{width:100%;font-size:21px;margin-bottom:6px}
+			#top_search form input[type=submit]{display:block;float:right;font-size:19px;padding:1px 9px}
+			.big_row{width:33%;float:left;margin-top:40px;overflow:hidden}
+			.big_link{font-size:26px;text-decoration:none;color:#555;font-weight:bold;display:block;margin-bottom:10px;}
+			.big_link:hover{text-decoration:underline}
+			.big_row > div{margin-left:20px;margin-right:30px}
+			.film{margin-bottom:13px;padding-left:6px}
+			.film img{width:120px;float:left;margin-right:6px;margin-top:3px}
+			.big_row[type=films] div{overflow:hidden}
+			.film_link{font-size:18px;fonft-weight:bold;margin-bottom:4px;display:block}
+			
+			.film_number{color: #ACACAC;font-weight: 400;left: 5px;margin: 1px 0px 0px;	position: absolute;}
+			
+		</style>
+	</head>
+	<body>
+		<div id=top>
+			<div id=top_left>
+				<a href="/"><img src="img/label.png" alt="В Фильме.ру"></a>
+				<a class=label_link href="/"><h1>смотреть фильмы онлайн</h1></a>
+				<a class=label_link href="/"><h1>скачать фильмы</h1></a>
+			</div>
+			<div id=top_right>
+				<div class=right_h1>бесплатно</div>
+				<div class=right_h1>без регистрации</div>
+				<div class=right_h1>без смс</div>
+			</div>
+			<div id=top_search>				
+				<h1>поиск фильмов:</h1>
+				<form>					
+					<input type=submit value=искать>
+					<div>
+						<input type=text>										
+						<a href=extended_search.php>расширенный поиск</a>
+					</div>
+				</form>				
+			</div>	
+		</div>
+		<div class=big_row type=films>
+			<div>
+				<a class=big_link href="index.php/?page=1">Популярные фильмы</a>
+				<div class=film>	
+					<div class=film_number>1</div>
+					<a class=film_link href=film>Знакомство с Факерами 2 / Little Fockers (2010)</a>
+					<img src="http://9.vkadre.ru/assets/thumbnails/3f7e5f382796124.160.vk.jpg"> 
+					<!-- <div> -->
+						Мечтающая стать журналисткой провинциальная девушка Андреа по окончании университета получает должность помощницы всесильной Миранды Пристли, деспотичного редактора одного из крупнейших нью-йоркских журналов мод. Андреа всегда мечтала о такой работе, не зная, с каким нервным напряжением это будет связано. Вскоре ей предстоит узнать все ужасы глянцевого мира, а главное — сделать выбор между карьерой и любовью...
+					<!-- </div> -->
+				</div>			
+				<div class=film>			
+					<div class=film_number>2</div>				
+					<a class=film_link href=film>Кошмар на улице Вязов / A Nightmare on Elm Street (2010)</a>
+					<img src="http://9.vkadre.ru/assets/thumbnails/3f7e5f382796124.160.vk.jpg"> 
+					<!-- <div> -->
+        США, 2010 (фэнтези, приключения, семейный)<br>Режиссер: Майкл Эптид<br>В главных ролях: Бен Барнс, Скандар Кейнс, Джорджи Хенли, Уилл Поултер<br><br>«Назад в волшебство. Назад к надежде. Назад в Нарнию.»<span class='hidedesc'><span><br><br>Эдмунд, Люси, их кузен Юстас и король Каспиан отплывают на корабле «Покоритель Зари» на поиски друзей отца Каспиана — семи лордов: Ревелиана, Берна, Аргоза, Мавроморна, Октезиана, Рестимара и Рупа, изгнанных во время недолгого правления тирана Мираза.
+					<!-- </div> -->
+				</div>
+			</div>
+		</div>
+		<div class=big_row type=films>
+			<div>			
+				<a class=big_link href="index.php/?page=1">Новинки кинопроката</a>
+				<img src="http://9.vkadre.ru/assets/thumbnails/3f7e5f382796124.160.vk.jpg"> 
+				<div>
+					Мечтающая стать журналисткой провинциальная девушка Андреа по окончании университета получает должность помощницы всесильной Миранды Пристли, деспотичного редактора одного из крупнейших нью-йоркских журналов мод. Андреа всегда мечтала о такой работе, не зная, с каким нервным напряжением это будет связано. Вскоре ей предстоит узнать все ужасы глянцевого мира, а главное — сделать выбор между карьерой и любовью...
+				</div>			
+			</div>
+		</div>
+		<div class=big_row type=films>
+			<div>
+				<a class=big_link href="index.php/?page=1">Обсуждение фильмов</a>
+				<img src="http://9.vkadre.ru/assets/thumbnails/3f7e5f382796124.160.vk.jpg"> 
+				<div>
+					Мечтающая стать журналисткой провинциальная девушка Андреа по окончании университета получает должность помощницы всесильной Миранды Пристли, деспотичного редактора одного из крупнейших нью-йоркских журналов мод. Андреа всегда мечтала о такой работе, не зная, с каким нервным напряжением это будет связано. Вскоре ей предстоит узнать все ужасы глянцевого мира, а главное — сделать выбор между карьерой и любовью...
+				</div>
+			</div>
+		</div>
+		<div class=big_row>
+		</div>
+		<div class=big_row>
+		</div>
+		
+	</body>
+</html>

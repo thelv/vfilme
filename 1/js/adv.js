@@ -1,0 +1,1 @@
+document.write('<noindex><iframe scrolling=no style="scrolling:no;overflow:hidden;border:0;padding:0;margin:0;width:800px;height:80px" src="adv.html"></iframe></noindex>');

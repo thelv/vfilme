@@ -1,0 +1,31 @@
+<!-- <div style='padding-top:5px;padding-bottom:8px;' align=center> -->
+<div style='widt-h:750px;margin-top:7px;margin-bottom:-15px;padding-left:6px'> 
+
+<!-- <OBJECT classid='clsid:D27CDB6E-AE6D-11cf-96B8-444553540000' codebase='http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0'
+WIDTH='728' HEIGHT='90'><PARAM NAME='movie' VALUE='http://tionline.ru/banners/728x90%20miner.swf?link1=http://tionline.ru/?ref=1092'><PARAM NAME='menu' VALUE='false'><param name='FlashVars' value='city=27196'><PARAM NAME='quality' VALUE='high'><PARAM NAME='menu' VALUE='false'><PARAM NAME='bgcolor' VALUE='#FFFFFF'>
+<EMBED src='http://tionline.ru/banners/728x90%20miner.swf?link1=http://tionline.ru/?ref=1092' menu='false' quality='high' bgcolor='#FFFFFF'
+WIDTH='728' HEIGHT='90' TYPE='application/x-shockwave-flash' PLUGINSPAGE='http://www.macromedia.com/go/getflashplayer'></EMBED></OBJECT>
+-->
+
+<!-- </div> -->
+
+
+<!-- <div id="cpr_700"><!--объявления будут здесь--></div> -->
+<div>
+<!-- MarketGidGoods Start -->
+<div id="MarketGid4901"><center>
+<a href="http://marketgid.com/" target="_blank">Загрузка...</a>
+</center></div>
+<!-- MarketGidGoods End -->
+<!-- pered </body> -->
+<script type="text/javascript">
+var MarketGidDate = new Date();
+document.write('<scr'+'ipt type="text/javascript" '
++'src="http://jsg.dt00.net/v/f/vfilme.ru.4901.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()+'"'
++ '" charset="windows-1251" ></scr'+'ipt>');
+</script> 
+
+
+
+
+</div>

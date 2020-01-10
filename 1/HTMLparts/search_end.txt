@@ -1,0 +1,39 @@
+  </div>
+</div>
+<!--LiveInternet counter--><script type="text/javascript">document.write('<img src="http://counter.yadro.ru/hit?r' + escape(document.referrer) + ((typeof(screen)=='undefined')?'':';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ';u' + escape(document.URL) + ';' + Math.random() + '" width=1 height=1 alt="">')</script><!--/LiveInternet-->
+
+
+<!-- загрузчик блока - разместите в нижней части страницы -->
+<script language="javascript" type="text/javascript">
+<!--
+
+if (document.getElementById('cpr_700'))
+{
+	var cashprom_p = "700";
+	var cashprom_d = "cpr_700";
+}
+else
+{
+	var cashprom_p = "624";
+	var cashprom_d = "cpr_624";
+}
+//-->
+</script>
+
+
+<script type="text/javascript">
+var MarketGidDate = new Date();
+document.write('<scr'+'ipt type="text/javascript" '
++'src="http://jsg.dt00.net/v/f/vfilme.ru.4662.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()+'"'
++ '" charset="windows-1251" ></scr'+'ipt>');
+</script> 
+
+<script type="text/javascript">
+var MarketGidDate = new Date();
+document.write('<scr'+'ipt type="text/javascript" '
++'src="http://jsg.dt00.net/v/f/vfilme.ru.4901.js?t='+MarketGidDate.getYear()+MarketGidDate.getMonth()+'"'
++ '" charset="windows-1251" ></scr'+'ipt>');
+</script> 
+
+</body>
+</html>

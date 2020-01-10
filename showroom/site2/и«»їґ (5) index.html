@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html>
+	<head>
+		<style>
+			*{font-weight:normal;margin:0;padding:0;font-family:"Times New Roman"}
+			#top_left{float:left;background:#dde;padding:6px 26px 0px 2px;height:99px}
+			#top_left img{padding-left:10px;}
+			.label_link{text-decoration:none;color:#665a53;text-indent:12px}
+			.label_link:hover{text-decoration:underline;}
+			.label_link h1{text-decoration:none;font-size:22px;font-weight:normal;line-height:26px}
+			#top_right{float:right;background:#ddc;padding:8px 18px 0 21px;height:97px}
+			.right_h1{font-size:21px;line-height:25px;color:#000;background:url("img/galka.png") 0 5px no-repeat;padding-left:22px}
+			#top_search{overflow:hidden;padding:8px 33px 0px 28px;background:#f7f7f1;height:97px}
+			#top_search h1{float:left;font-size:30px;line-height:35px;}
+			#top_search form{overflow:hidden;padding-top:6px}
+			#top_search form div{overflow:hidden;padding:0 14px 5px 7px;font-size:17px;font-wight:normal}
+			#top_search form input[type=text]{width:100%;font-size:21px;margin-bottom:6px}
+			#top_search form input[type=submit]{display:block;float:right;font-size:19px;padding:1px 9px}
+			
+		</style>
+	</head>
+	<body>
+		<div id=top>
+			<div id=top_left>
+				<a href="/"><img src="img/label.png" alt="В Фильме.ру"></a>
+				<a class=label_link href="/"><h1>смотреть фильмы онлайн</h1></a>
+				<a class=label_link href="/"><h1>скачать фильмы</h1></a>
+			</div>
+			<div id=top_right>
+				<div class=right_h1>бесплатно</div>
+				<div class=right_h1>без регистрации</div>
+				<div class=right_h1>без смс</div>
+			</div>
+			<div id=top_search>				
+				<h1>поиск фильмов:</h1>
+				<form>					
+					<input type=submit value=искать>
+					<div>
+						<input type=text>										
+						<a href=extended_search.php>расширенный поиск</a>
+					</div>
+				</form>				
+			</div>	
+		</div>
+	</body>
+</html>

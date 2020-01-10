@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+		<link rel="shortcut icon" href="img/favicon.png" /> 
+		<style>
+			body{wid-th:1000px;font-size:16px}
+			img{border:0}
+			*{font-weight:normal;margin:0;padding:0;font-family:"Times New Roman"}
+			b{font-weight:bold}
+			#top_left{float:left;background:#dde;padding:6px 26px 0px 2px;height:99px}
+			#top_left img{padding-left:10px;}
+			.label_link{text-decoration:none;color:#665a53;text-indent:12px}
+			.label_link:hover{text-decoration:underline;}
+			.label_link h1{text-decoration:none;font-size:22px;font-weight:normal;line-height:26px}
+			#top_right{float:right;background:#ddc;padding:8px 18px 0 21px;height:97px}
+			.right_h1{font-size:21px;line-height:25px;color:#000;background:url("img/galka.png") 0 5px no-repeat;padding-left:22px}
+			#top_search{overflow:hidden;padding:8px 33px 0px 28px;background:#f7f7f1;height:97px}
+			#top_search h1{float:left;font-size:30px;line-height:35px;font-weight:normal}
+			#top_search form{overflow:hidden;padding-top:6px}
+			#top_search form div{overflow:hidden;padding:0 14px 5px 7px;font-size:17px;font-wight:normal}
+			#top_search form input[type=text]{width:100%;font-size:21px;margin-bottom:6px}
+			#top_search form input[type=submit]{display:block;float:right;font-size:19px;padding:1px 9px}
+			.big_row{width:35%;float:left;margin-top:40px;overflow:hidden}
+			#last_row{width:30%}
+			.big_link{font-size:26px;text-decoration:none;color:#555;font-weight:bold;display:block;margin-bottom:10px;pradding-left:10px}
+			.big_link:hover{text-decoration:underline}
+			.big_row > div{margin-left:20px;margin-right:30px}
+			#last_row > div{margin-right:20px}
+			.film{margin-bottom:13px;paddirng-left:10px}
+			.film img{width:120px;float:left;margin-right:6px;margin-top:3px}
+			.big_row[type=films] div{overflow:hidden}
+			.film_link{font-size:18px;fonft-weight:bold;margin-bottom:4px;display:block}
+			.film_number{font-size:18px;color: #ACACAC;font-weight: normal;400;margin: 1px 0px 0px -20px;position: absolute;display:none}
+			.else{color:#666}
+			.big_row[type=comments] > div > div{margin-bottom:20px}
+			.alfa{color:#33b}
+			#left_row{width:255px;float:left;padding:27px 15px 0 13px;}
+			#right_row{width:200px;float:right;padding-top:26px}
+			#center_row{overflow:hidden;padding:25px 20px 0 20px;}
+			.watch_film h1{font-size:26px;font-weight:bold}
+			.w_d{font-size:17px;margin-bottom:20px}
+			.film_cont{margin--top:20px;margin-bottom:20px;margin-right:22px;floa-t:left}
+			#vk_comments{margin-left:0 !important;width:100% !important;margin-top:20px}
+			.left_item{position:relative;overflow:hidden;margin-bottom:13px}
+			.left_item a{color:#33b}			
+			.left_item .else{text-decoration:none;border-bottom:1px dashed #666;display:none}
+			#left_row a:hover{color:#00e}
+			#left_row a.left_h{font-size:24px;color:black;text-decoration:none;display:block;}			
+			#left_row a.left_h:hover{font-size:24px;color:black;text-decoration:none;display:block;text-decoration:underline}
+			.fade{background: transparent url(img/fade.png) repeat-y right top;display:block;position:absolute;right:0;display:block;height:100%;width:14px}
+			#left_comments{font-size:14px}	
+			.left_comment{margin:2px 0 3px 0;}
+			.search_films h1{font-size:26px;font-weight:bold}
+			.pages{text-align:cefnter; font-size:16px;margin-top:10px}
+			.pages b{font-size:16px}			
+			.forw_back{padding-left:10px}
+			span.forw_back{color:#666;text-decoration:none;}
+			#bottom_pages{margin-top:30px;margin-bottom:20px}
+			#bottom_pages .page_links{padding-top:5px;}
+			.page_link{font-size:17px;padding-right:5px}
+			b.page_link{background:#eee;padding-left:5px}
+			.page_links{padding-top:5px;}
+			.search_film{margin-top:19px;margin-bottom:29px;overflow:hidden}
+			.search_film_link{font-size:19px;display:block;margin-bottom:5px}			
+			.search_film img{max-width:240px;width:33%;margin-top:5px;margin-right:15px;float:left}
+			.search_film_desc{overflow:hidden}			
+		</style>		
+	</head>
+	<body>
+		<div id=top>
+			<div id=top_left>
+				<a href="/"><img src="img/label.png" alt="В Фильме.ру"></a>
+				<a class=label_link href="/"><h1>смотреть фильмы онлайн</h1></a>
+				<a class=label_link href="/"><h1>скачать фильмы</h1></a>
+			</div>
+			<div id=top_right>
+				<div class=right_h1>бесплатно</div>
+				<div class=right_h1>без регистрации</div>
+				<div class=right_h1>без смс</div>
+			</div>
+			<div id=top_search>				
+				<h1>поиск фильмов:</h1>
+				<form>					
+					<input type=submit value=искать>
+					<div>
+						<input type=text>										
+						<a href=extended_search.php>расширенный поиск</a>
+					</div>
+				</form>			
+				<a class=alfa href=alfa>1</a>
+				<a class=alfa href=alfa>2</a>
+				<a class=alfa href=alfa>3</a>
+				<a class=alfa href=alfa>4</a>
+				<a class=alfa href=alfa>5</a>
+				<a class=alfa href=alfa>6</a>
+				<a class=alfa href=alfa>7</a>
+				<a class=alfa href=alfa>8</a>
+				<a class=alfa href=alfa>9</a>
+				<a class=alfa href=alfa>0</a>
+				<a class=alfa href=alfa>а</a>
+				<a class=alfa href=alfa>б</a>
+				<a class=alfa href=alfa>в</a>
+				<a class=alfa href=alfa>г</a>
+				<a class=alfa href=alfa>д</a>
+				<a class=alfa href=alfa>е</a>
+				<a class=alfa href=alfa>ё</a>
+				<a class=alfa href=alfa>ж</a>
+				<a class=alfa href=alfa>з</a>
+				<a class=alfa href=alfa>б</a>
+				<a class=alfa href=alfa>и</a>
+				<a class=alfa href=alfa>й</a>
+				<a class=alfa href=alfa>к</a>
+				<a class=alfa href=alfa>л</a>
+				<a class=alfa href=alfa>м</a>
+				<a class=alfa href=alfa>н</a>
+				<a class=alfa href=alfa>о</a>
+				<a class=alfa href=alfa>п</a>
+				<a class=alfa href=alfa>р</a>
+				<a class=alfa href=alfa>с</a>
+				<a class=alfa href=alfa>т</a>
+				<a class=alfa href=alfa>у</a>
+				<a class=alfa href=alfa>ф</a>
+				<a class=alfa href=alfa>х</a>
+				<a class=alfa href=alfa>ц</a>
+				<a class=alfa href=alfa>ч</a>
+				<a class=alfa href=alfa>ш</a>
+				<a class=alfa href=alfa>щ</a>
+				<a class=alfa href=alfa>ъ</a>
+				<a class=alfa href=alfa>ы</a>
+				<a class=alfa href=alfa>ь</a>
+				<a class=alfa href=alfa>э</a>
+				<a class=alfa href=alfa>ю</a>
+				<a class=alfa href=alfa>я</a>				
+			</div>	
+		</div>		
+		<div id=left_row>	
+			<div class=left_item>
+				<a class=left_h href=qwe>
+					Популярные фильмы
+				</a>
+				<span class="fade"></span>
+				<a href=film>Дьявол носит Прада</a><br>
+				<a href=film><nobr>Принц Персии: Пески времени / Prince of Persia: The Sands of Time (2010) </nobr></a>
+				<a href="index.php?page=2" class=else>все популярные →</a>
+			</div>
+			<div class=left_item>
+				<a class=left_h href=qwe>
+					Новинки кинопроката
+				</a>
+				<span class="fade"></span>
+				<a href=film>Три богатыря и Шамаханская царица</a><br>
+				<a href=film><nobr>Зеленый слоник. </nobr></a>
+				<a href="index.php?page=2" class=else>все новинки →</a>
+			</div>
+			<div class=left_item>
+				<a class=left_h href=qwe>
+					Советские мультики
+				</a>
+				<span class="fade"></span>
+				<a href=film><nobr>Социальная сеть / The Social Newtwork (2010)</nobr></a><br>
+				<a href=film><nobr>Ловушка для бамбра </nobr></a>
+				<a href="index.php?page=2" class=else>все мультики →</a>
+			</div>
+			<div class=left_item id=left_comments>
+				<a class=left_h href=qwe>
+					Обсуждение фильмов
+				</a>
+				<span class="fade"></span>
+				<div class=left_comment>
+					<a href=film>Социальная сеть / The Social Newtwork (2010)</a> - очень хороший сериал!!! Я сама хочу быть хирургом <br>
+				</div>
+				<div class=left_comment>
+					<a href=film><nobr>Ловушка для бамбра </nobr></a> - интересно, девчонки не на сценарий работали?
+				</div>
+				<a href="index.php?page=2" class=else>все мультики →</a>
+			</div>
+		</div>
+		<div id=right_row>
+	<!--	<iframe scrolling=no src="http://teasernet.com/webmaster/editblock/show/index.php?notpl=1&nohtml&thq=1&ipl=0&cw=100&tvk=5&blw=200&blmh=0&blmv=0&blmvt=px&blbgch=%23FFFFFF&blbgc=%23FFFFFF&blbw=0&blbt=solid&blbc=%23e0dce0&tbgc=%23FFFFFF&ism=70&iw=60&tbw=0&tbt=solid&tbgch=%23FFFFFF&tbc=%23CCCCCC&ibt=solid&ibc=%23bdb2bd&ibw=0&ims=6&af=tahoma&as=12&au=px&ac=%23575757&ahf=tahoma&ahs=12&ahu=px&ahc=%23000000&aos=12&aof=tahoma&aou=px&aoc=%230000cc&afun=0&afb=1&atun=0&atb=1&ahb=1&ahun=0" style="width:195px;height:1000px;border:0;margin-left:-8px;overflow:hidden"></iframe> -->
+<!--		<script type="text/javascript">
+teasernet_blockid = 226169;
+teasernet_padid = 72749;
+</script>
+<script type="text/javascript" src="http://agitazio.com/block.js"></script>
+  
+		&nbsp;-->
+		<script language="JavaScript" type="text/javascript">
+var ban_id='1376';
+														var size="160x600";	// размер баннера
+														var cid="ffbcdb7d98a63749d7b008ffaa4dc8e7";
+														var sa="";  // субаккаунт
+													</script>
+													<script language="JavaScript" type="text/javascript" src="http://t44.gameleads.ru/"></script>
+		
+		
+		</div>
+		<div id=center_row class=search_films>
+			<h1>Новинки мирового кинопроката / Новые фильмы 2011 г</h1>
+			<div class=pages>				
+				<b>Страницы </b> 
+				<span class=forw_back href=2>← предыдущая</span> <a class=forw_back href=2>следующая →</a><br>
+				<div class=page_links>
+					<b class=page_link>1</b> <a class=page_link href=2>2</a> <a class=page_link href=2>3</a> <a class=page_link href=2>4</a> <a class=page_link href=2>5</a>
+				</div>
+			</div>
+			<div class=search_film>				
+				<img src="http://cs12921.vkontakte.ru/u46868774/video/l_997d042c.jpg">
+				<a class=search_film_link href=film>Социальная сеть / The Social Newtwork (2010)</a>				
+				<div class=search_film_desc>
+					История создания социальной сети facebook.<br>Жанр: Драма.<br>Один из главных претендентов на Главный Оскар<br><br>В фильме рассказывается история создания одной из самых популярных в Интернете социальных сетей — Facebook. Оглушительный успех этой сети ср<span class='hidedesc'><span>еди пользователей по всему миру навсегда изменил жизнь студентов-однокурсников гарвардского университета, которые основали ее в 2004 году и за несколько лет стали самыми молодыми мультимиллионерами в США.<br><br>режиссер: Дэвид Финчер<br>В главных ролях: Джесси Айзенберг, Эндрю Гарфилд, Джастин Тимберлэйк, Эрми Хаммер
+				</div>
+			</div>
+			<div class=search_film>				
+				<img src="http://9.vkadre.ru/assets/thumbnails/3f7e5f382796124.160.vk.jpg">
+				<a class=search_film_link href=film>Дьявол носит Прада</a>				
+				<div class=search_film_desc>
+					Мечтающая стать журналисткой провинциальная девушка Андреа по окончании университета получает должность помощницы всесильной Миранды Пристли, деспотичного редактора одного из крупнейших нью-йоркских журналов мод. Андреа всегда мечтала о такой работе, не зная, с каким нервным напряжением это будет связано. Вскоре ей предстоит узнать все ужасы глянцевого мира, а главное — сделать выбор между карьерой и любовью...
+				</div>
+			</div>			
+			<div class=search_film>				
+				<img src="http://cs12921.vkontakte.ru/u46868774/video/l_997d042c.jpg">
+				<a class=search_film_link href=film>Социальная сеть / The Social Newtwork (2010)</a>				
+				<div class=search_film_desc>
+					История создания социальной сети facebook.<br>Жанр: Драма.<br>Один из главных претендентов на Главный Оскар<br><br>В фильме рассказывается история создания одной из самых популярных в Интернете социальных сетей — Facebook. Оглушительный успех этой сети ср<span class='hidedesc'><span>еди пользователей по всему миру навсегда изменил жизнь студентов-однокурсников гарвардского университета, которые основали ее в 2004 году и за несколько лет стали самыми молодыми мультимиллионерами в США.<br><br>режиссер: Дэвид Финчер<br>В главных ролях: Джесси Айзенберг, Эндрю Гарфилд, Джастин Тимберлэйк, Эрми Хаммер
+				</div>
+			</div>
+			<div class=search_film>				
+				<img src="http://9.vkadre.ru/assets/thumbnails/3f7e5f382796124.160.vk.jpg">
+				<a class=search_film_link href=film>Дьявол носит Прада</a>				
+				<div class=search_film_desc>
+					Мечтающая стать журналисткой провинциальная девушка Андреа по окончании университета получает должность помощницы всесильной Миранды Пристли, деспотичного редактора одного из крупнейших нью-йоркских журналов мод. Андреа всегда мечтала о такой работе, не зная, с каким нервным напряжением это будет связано. Вскоре ей предстоит узнать все ужасы глянцевого мира, а главное — сделать выбор между карьерой и любовью...
+				</div>
+			</div>			
+			<div class=pages id=bottom_pages>				
+				<b>Страницы </b> 
+				<span class=forw_back href=2>← предыдущая</span> <a class=forw_back href=2>следующая →</a><br>				
+				<div class=page_links>
+					<b class=page_link>1</b> <a class=page_link href=2>2</a> <a class=page_link href=2>3</a> <a class=page_link href=2>4</a> <a class=page_link href=2>5</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

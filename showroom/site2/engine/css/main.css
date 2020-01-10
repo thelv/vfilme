@@ -1,0 +1,98 @@
+			body{wid-th:1000px;font-size:16px}
+			a{color:#00e}
+			img{border:0}
+			*{font-weight:normal;margin:0;padding:0;font-family:"Times New Roman"}
+			b{font-weight:bold}
+			#top_left{float:left;background:#dde;padding:6px 26px 0px 2px;height:99px}
+			#top_left img{padding-left:10px;}
+			.label_link{text-decoration:none;color:#665a53;text-indent:12px}
+			.label_link:hover{text-decoration:underline;}
+			.label_link .h1{text-decoration:none;font-size:22px;font-weight:normal;line-height:26px}
+			#top_right{float:right;background:#ddc;padding:8px 18px 0 21px;height:97px}
+			.right_h1{font-size:21px;line-height:25px;color:#000;background:url("../img/galka.png") 0 5px no-repeat;padding-left:22px}
+			#top_search{overflow:hidden;padding:8px 33px 0px 28px;background:#f7f7f1;height:97px}
+			#top_search .h1{float:left;font-size:30px;line-height:35px;font-weight:normal}
+			#top_search form{overflow:hidden;padding-top:6px}
+			#top_search form div{overflow:hidden;padding:0 14px 5px 7px;font-size:17px;font-wight:normal}
+			#top_search form input[type=text]{width:100%;font-size:21px;margin-bottom:6px;text-indent:2px}
+			#top_search form input[type=submit]{display:block;float:right;font-size:19px;padding:1px 9px}
+			.big_row{width:35%;float:left;margin:40px 0 0 0;overflow:hidden;padding-bottom:40px}
+			#last_row{width:30%}
+			.big_link{font-size:26px;text-decoration:none;color:#555;font-weight:bold;display:block;margin-bottom:10px;pradding-left:10px}
+			.big_link:hover{text-decoration:underline}
+			.big_row > div{margin-left:20px;margin-right:30px}
+			#last_row > div{margin-right:20px}
+			.main_film{margin-bottom:13px;paddirng-left:10px}
+			.main_film img{width:120px;float:left;margin-right:6px;margin-top:3px}
+			.big_row[type=films] div{overflow:hidden}
+			.main_film_link{font-size:18px;fonft-weight:bold;margin-bottom:4px;display:block}			
+			.else{color:#666}
+			.big_row[type=comments] > div > div{margin-bottom:20px}
+			.alfa{color:#33b}
+			.alfa:hover{color:#00e}
+			#center_row{overflow:hidden;padding:25px 20px 0 20px;margin:0 200px 0 283px}
+			#left_row{width:255px;float:left;padding:27px 15px 0 13px;position:absolute;left:0;top:105px}
+			#right_row{width:200px;float:right;padding-top:26px;position:absolute;right:0;top:105px}
+			.watch_film h1{font-size:26px;font-weight:bold}
+			.w_d{font-size:17px;margin-bottom:20px}
+			.film_cont{margin--top:20px;margin-bottom:20px;margin-right:22px;float:left}
+			#vk_comments{margin-left:0 !important;width:100% !important;margin-top:20px}
+			.left_item{position:relative;padding-bottom:13px;clear:left;float:left;width:100%}
+			.left_item a{color:#33b;display:block;overflow:hidden}						
+			#left_row a:hover{color:#00e;position:relative;z-index:2}
+			#left_row a.left_h{font-size:24px;color:black;text-decoration:none;display:block;}
+			#left_row a.left_h:hover{text-decoration:underline}
+			.left_film{float:left;clear:left;max-width:255px;position:relative}
+			.fast_film{position:absolute;left:100%;display:none;z-index:3;border:1px solid black;background:#eee;padding:10px 15px 10px 15px;width:300px;margin-top:-45px;margin-left:22px;font-size:16px}
+			.fast_film_arrow{position:absolute;top:31px;left:-14px;z-index:3;}			
+			.fast_film b{display:block;padding-bottom:3px;}
+			.fast_film_img{float:left;width:100px;padding:3px 10px 0 0;min-height:50px}
+			.fade{background: transparent url(../img/fade.png) repeat-y right top;display:block;position:absolute;z-index:1;right:0;display:block;height:100%;width:14px}
+			#left_comments{font-size:14px}	
+			#left_comments .left_film a{display:inline}	
+			#left_comments .left_h{padding-bottom:2px;}
+			#left_comments .left_film {padding:0px 0 3px 0;}
+			#left_comments .fast_film{margin-top:-46px}
+			.search_films h1{font-size:26px;font-weight:bold}
+			.pages{font-size:16px;margin-top:10px}
+			.pages b{font-size:16px}			
+			.forw_back{padding-left:10px}
+			span.forw_back{color:#666;text-decoration:none;}
+			#bottom_pages{margin-top:30px;margin-bottom:20px}
+			#bottom_pages .page_links{padding-top:5px;}
+			.page_link{font-size:17px;padding-right:5px}
+			b.page_link{background:#eee;padding-left:5px}			
+			.page_links{padding-top:5px;}
+			.search_film{margin-top:19px;margin-bottom:29px;overflow:hidden}
+			.search_film_link{font-size:19px;display:block;margin-bottom:5px}			
+			.search_film img{max-width:240px;width:33%;margin-top:5px;margin-right:15px;float:left;min-height:40px;}
+			.search_film_desc{overflow:hidden}
+		    .hidedesc span{display:block;position:absolute;visibility:hidden;color:red;}
+			.showdesc span{display:inline;}
+			.deschider{color:#871727;text-decoration:underline;cursor:pointer;}
+			.comments{margin-top:10px}
+			.comments b{font-weight:bold;font-size:17px;display:block;margin-bottom:7px}
+			.comment{margin:7px 0;}
+			.comment_time{color:#888;font-size:15px; font-weight:bold}
+			h1#series_name{font-size:24px; font-weight:normal;margin-top:10px}
+			h1 a{text-decoration:none;color:#000;font-weight:bold}
+			h1 a:hover{text-decoration:underline}
+			.pages[series]{margin-top:12px;position:static;margin-bottom:0px;line-height:23px}
+			.pages[series]  > b{margin-right:4px}
+			.pages[series] .page_links{margin-right:1px}
+			.pages[series] .prev_next{line-height:16px}
+			.prev_next{margin-top:5px;}
+			.prev_next .forw_back:first-child{padding-left:1px}
+			#extended_search{padding-right:4px}
+			#extended_search table{margin:8px 100px 22px -2px;background:#eee;padding:19px 10px 8px 24px;width:100%;border:1px solid #aaa}			
+			#extended_search tr{vertical-align:top}
+			#extended_search tr td:first-child{line-height:23px;width:10px;}
+			#extended_search td{padding-bottom:10px;font-size:16px;padding-right:25px}
+			#extended_search input{font-size:16px}
+			#extended_search input[type="text"]{width:100%;padding-left:2px;font-weight:bold}
+			#extended_search input[type="submit"]{padding:2px 12px;0 4px;display:block;margin-top:6px;font-weight:bold}
+			#extended_search select{font-size:16px}
+			#extended_search td span{font-size:14px;color:#555;padding-right:15px}
+			#extended_search h1{margin-bottom:22px;font-size:25px}
+			#random {margin-top:10px;margin-bottom:-6px}
+			#random input[type="submit"]{font-size:18px;padding:2px 10px;}

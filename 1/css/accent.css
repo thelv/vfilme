@@ -1,0 +1,11 @@
+  .filmactions b{
+    font-weight:normal;
+  }
+  .resultslabel H2{
+    font-size:15px;
+    display:inline;
+  }
+  #mainpagelink{
+    position:absolute;
+    left:-10000;
+  }
